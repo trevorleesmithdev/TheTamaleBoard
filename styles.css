@@ -1,0 +1,52 @@
+body {
+  font-size: 24px;
+  background-image: radial-gradient(circle, rgba(27,9,60,1) 25%, rgba(0,0,0,1) 100%);
+  background-size: 100vw 100vh;
+}
+
+h1, p {
+  text-align: center;
+  color: white;
+  font-family: Special Elite;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+table.tamale {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #78A172;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.tamale td, table.tamale th {
+  border: 1px solid #411350;
+  padding: 3px 2px;
+}
+table.tamale tbody td {
+  font-size: 19px;
+  color: #FFFFFF;
+}
+table.tamale tr:nth-child(even) {
+  background: #8559A4;
+}
+table.tamale thead {
+  background: #411350;
+  background: -moz-linear-gradient(top, #704e7c 0%, #542a61 66%, #411350 100%);
+  background: -webkit-linear-gradient(top, #704e7c 0%, #542a61 66%, #411350 100%);
+  background: linear-gradient(to bottom, #704e7c 0%, #542a61 66%, #411350 100%);
+}
+table.tamale thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.tamale tfoot td {
+  font-size: 21px;
+}
